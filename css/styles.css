@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2? family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2? family=Raleway:wght@700&family=Roboto:wght@500&display=swap");
+*{
+    margin: 0;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-content {
+  text-decoration: none;
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 26px;
+}
+.content {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+
+.content a {
+  text-decoration: none;
+  color: #212121;
+  margin-left: 53px;
+}
+
+.content a:hover {
+  color: #2196f3;
+}
+
+.content :first-child:focus {
+  color: #2196f3;
+}
+
+.nav-contact {
+  justify-content: flex-end;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+.nav-contact a {
+  text-decoration: none;
+  color: #212121;
+
+  margin-left: 53px;
+}
+
+.nav-contact a:hover {
+  color: #2196f3;
+}
+
+.nav-contact a:focus {
+  color: #2196f3;
+}
+/* section of main*/
+.introduction{
+    height: 600px;
+    background-color: #2F303A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.introduction h1{
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 44px;
+color: #FFFFFF;
+width: 600px;
+text-align: center;
+}
+
+.button{
+    background-color: #2196F3;
+    width: 200px;
+    height: 50px;
+    color:#FFFFFF ;
+    border-radius: 4px;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+font-weight: 550;
+font-size: 16px;
+letter-spacing: 1px;
+margin-top: 35px;
+}
