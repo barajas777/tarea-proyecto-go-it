@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2? family=Raleway:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2? family=Raleway:wght@700&family=Roboto:wght@500&display=swap");
-*{
-    margin: 0;
-}
+
 
 header {
   height: 80px;
@@ -21,7 +19,6 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-
 }
 .content {
   justify-content: center;
@@ -35,16 +32,15 @@ header {
   line-height: 31px;
 }
 
-.content a{
-  margin-right: 60px;
-}
-
-
 .content a {
   text-decoration: none;
   color: #212121;
   margin-left: 53px;
+  margin-right: 60px;
+  font-size: 14px;
+  line-height: 16px;
 }
+
 
 .content a:hover {
   color: #2196f3;
@@ -74,7 +70,7 @@ header {
   color: #2196f3;
 }
 
-.nav-contact a:focus {
+.nav-contact :focus {
   color: #2196f3;
 }
 /* section of main*/
@@ -124,7 +120,9 @@ text-align: center;
   letter-spacing: 30%;
   font-size: 14px;
   line-height: 16.41px;
+  height: 95px;
 }
+
 
 .info p {
   list-style: none;
@@ -160,7 +158,14 @@ text-align: center;
   line-height: 42.19px;
   letter-spacing: 3%;
   justify-content: center;
+  margin-top: 94x;
 }  
+
+.color {
+  background-color: #F5F4FA;
+  height: 648px;
+  padding-top: 94px;
+}
 
 .group {
   font-family: "Roboto", sans-serif;
@@ -168,7 +173,12 @@ text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 50px;
+  margin: 60px;
+}
+
+.fhoto {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .group h3 {
@@ -190,3 +200,42 @@ text-align: center;
   letter-spacing: 3%;
   color: #757575;
 }
+
+.dates {
+  height: 252px;
+  background-color: #2F303A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer h3 {
+  text-decoration: none;
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  margin-right: 990px;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.container-list {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  list-style: none;
+  margin-right: 900px;
+}
+
+.container-list a {
+  color: #757575;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+
